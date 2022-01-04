@@ -20,9 +20,9 @@ const ToDos: React.FC = () => {
     fetchTodos();
   },[])
 
-  const selectFilter = (e: any) => {
+  const selectFilter = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const condition = e.target.value === 'true' ? true : false;
-    const filtered = todos && todos?.filter( (todo: any) => todo?.completed === condition  );
+    const filtered = todos && todos?.filter( (todo: Todo) => todo?.completed === condition  );
     setFilteredTodos(filtered)
   }
 
