@@ -8,4 +8,4 @@ Para executar a aplicação execute os comandos em seu terminal de preferência:
 - `yarn install` para instalar as dependências do front,
 - `yarn start` que irá executar a aplicação (localhost:3000)
 
-Sugestões, feedbacks, dúvidas: luizmiguel.sistemas@gmail.com
+Sugestões, feedbacks e dúvidas: luizmiguel.sistemas@gmail.com
